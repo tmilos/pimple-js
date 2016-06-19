@@ -1,0 +1,39 @@
+{
+  "name": "pimple-js",
+  "version": "0.0.1",
+  "description": "Dependency injection container for javascript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha tests && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmilos/pimple-js.git"
+  },
+  "keywords": [
+    "pimple",
+    "ioc",
+    "dependency injection"
+  ],
+  "author": {
+    "name": "Milos Tomic",
+    "email": "tmilos@gmail.com",
+    "url": "https://github.com/tmilos"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmilos/pimple-js/issues"
+  },
+  "homepage": "https://github.com/tmilos/pimple-js#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "standard": "^6.0.8"
+  },
+  "standard": {
+    "env": {
+      "mocha": true
+    }
+  }
+}
